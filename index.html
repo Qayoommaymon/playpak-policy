@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayPak - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0A0E14;
+            color: #E5E5E5;
+            line-height: 1.7;
+            padding: 24px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { color: #00BCD4; font-size: 28px; margin-bottom: 8px; }
+        h2 { color: #00BCD4; font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+        p { margin-bottom: 14px; color: #B0B0B0; }
+        ul { padding-left: 24px; margin-bottom: 14px; }
+        li { margin-bottom: 6px; color: #B0B0B0; }
+        .date { color: #6B6B6B; font-size: 14px; margin-bottom: 32px; }
+        .highlight { color: #E5E5E5; font-weight: 500; }
+        a { color: #00BCD4; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .section { margin-bottom: 8px; }
+        .badge {
+            display: inline-block;
+            background: #00BCD4;
+            color: #000;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PlayPak Privacy Policy</h1>
+    <p class="date">Last updated: February 19, 2026</p>
+    <span class="badge">Video Player for Android</span>
+
+    <div class="section">
+        <p>PlayPak is a local video player for Android phones and Android TV. We respect your privacy. This policy explains what data PlayPak accesses, how it is used, and your rights.</p>
+    </div>
+
+    <h2>1. Data We Collect</h2>
+    <p><span class="highlight">PlayPak does not collect, transmit, or store any personal data on external servers.</span> All data stays on your device.</p>
+    <p>The app stores the following locally on your device using SharedPreferences and local cache files:</p>
+    <ul>
+        <li><span class="highlight">Watch history &amp; playback positions</span> — so you can resume where you left off</li>
+        <li><span class="highlight">App settings</span> — theme preference, gesture settings, playback speed</li>
+        <li><span class="highlight">Bookmarks &amp; playlists</span> — your saved favorites and custom playlists</li>
+        <li><span class="highlight">Thumbnail cache</span> — generated video thumbnails for faster browsing</li>
+    </ul>
+    <p>This data never leaves your device and can be cleared at any time from the app settings or by clearing app data in Android Settings.</p>
+
+    <h2>2. Permissions</h2>
+    <p>PlayPak requests the following Android permissions. Each is required for core functionality:</p>
+    <ul>
+        <li><span class="highlight">Storage (READ_MEDIA_VIDEO, READ_MEDIA_IMAGES, MANAGE_EXTERNAL_STORAGE)</span> — To scan, browse, and play video files on your device. Also used to read WhatsApp status files and save them to your Downloads folder.</li>
+        <li><span class="highlight">Internet (INTERNET)</span> — To play network video streams (HTTP, HLS, RTSP) and download video files from URLs you provide.</li>
+        <li><span class="highlight">Wake Lock (WAKE_LOCK)</span> — To keep the screen on during video playback.</li>
+        <li><span class="highlight">Foreground Service (FOREGROUND_SERVICE)</span> — For background audio playback and download progress notifications.</li>
+        <li><span class="highlight">Notifications (POST_NOTIFICATIONS)</span> — To show playback controls and download progress in the notification shade.</li>
+    </ul>
+    <p>PlayPak does not access your contacts, camera, microphone, location, or any other sensitive data.</p>
+
+    <h2>3. Network Usage</h2>
+    <p>PlayPak connects to the internet <span class="highlight">only when you explicitly request it</span>:</p>
+    <ul>
+        <li>Playing a network video URL you entered</li>
+        <li>Downloading a video file from a URL you provided</li>
+    </ul>
+    <p>PlayPak does not contain analytics, tracking, advertising SDKs, or any form of telemetry. No data is sent to our servers or any third party.</p>
+
+    <h2>4. WhatsApp Status Saver</h2>
+    <p>The WhatsApp Status Saver feature reads status files that WhatsApp has already downloaded to your device. PlayPak:</p>
+    <ul>
+        <li>Reads files from WhatsApp's local status directories on your device</li>
+        <li>Copies files you choose to save into your Downloads/PlayPak/Statuses folder</li>
+        <li>Does not access WhatsApp accounts, messages, or contacts</li>
+        <li>Does not connect to WhatsApp servers</li>
+    </ul>
+
+    <h2>5. Third-Party Libraries</h2>
+    <p>PlayPak uses open-source libraries for video playback (media_kit/libmpv), thumbnail generation, and audio service notifications. These libraries operate locally on your device and do not transmit data externally.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>PlayPak is a general-purpose video player. It does not target children under 13 and does not knowingly collect data from children. The app plays video files already present on the user's device.</p>
+
+    <h2>7. Data Retention &amp; Deletion</h2>
+    <p>All data is stored locally. You can delete it at any time by:</p>
+    <ul>
+        <li>Clearing watch history and thumbnail cache from the app settings</li>
+        <li>Clearing app data from Android Settings &gt; Apps &gt; PlayPak &gt; Clear Data</li>
+        <li>Uninstalling the app (removes all app data)</li>
+    </ul>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated date. Continued use of PlayPak after changes constitutes acceptance.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have questions about this privacy policy or PlayPak, contact us at:</p>
+    <p><a href="mailto:playpak.app@gmail.com">playpak.app@gmail.com</a></p>
+
+</body>
+</html>
